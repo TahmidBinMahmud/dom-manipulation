@@ -13,4 +13,14 @@ textBtn.addEventListener('click', function(event){
     task2A.appendChild(paragraph)
 })
 
+//Task 2b: Click on buttons to change Background colour
+
+function changeBGColour(event){
+    //console.log(event.target.innerText)
+    var body = document.getElementsByTagName('body')[0]
+    body.style.backgroundColor = event.target.innerText.toLowerCase()
+    
+
+}
+
 /* Task 4 using jQuery */
